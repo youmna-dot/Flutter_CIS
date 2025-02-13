@@ -1,0 +1,38 @@
+// screen 1
+Scaffold 
+ AppBar ->Title: Login Page
+ Flutter Logo -> Image
+ SizedBox -> Spacing
+TextField -> Email
+ SizedBox -> Spacing
+TextField ->Password
+SizedBox ->Spacing
+ TextButton ->Forgot Password
+ SizedBox ->Spacing
+ Button -> Login
+ SizedBox -> Spacing
+ TextButton -> Create Account
+
+
+
+// screen2
+Scaffold
+ AppBar -> title: External display adventure
+ Body: Center
+Column 
+ Text -> You have pushed the button this many times
+ Text -> Counter Value
+Button -> Icon '+'
+
+
+//screen3
+Scaffold
+AppBar -> title: Checkout 
+ Body: Column 
+ Text ->Payment Mode
+ Text -> Select your preferred payment mode
+
+Column
+Row Visa Logo
+ Text -> CARD NUMBER
+ Text -> 8154 3265 0045 1582
