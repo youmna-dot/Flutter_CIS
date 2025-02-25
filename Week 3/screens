@@ -1,0 +1,66 @@
+// screen 6
+Scaffold 
+AppBar
+column  
+headerText -> Text 
+              Text
+optionList-> optionRow row -> icon 
+                              column (Text -Text) 
+                              icon
+             optionRow row -> icon 
+                              column (Text -Text) 
+                              icon
+             optionRow row -> icon 
+                              column (Text -Text) 
+                              icon
+             optionRow row -> icon 
+                              column (Text -Text) 
+                              icon
+Button  -> create your plan 
+BottomNavigationBar -> BottomNavigationBarItem(Timer)       
+                       BottomNavigationBarItem(Workouts)
+                       BottomNavigationBarItem(Plan) 
+                       BottomNavigationBarItem(Profile)
+
+
+// screen 7
+Scaffold 
+AppBar -> Leading (Back Button )  
+          Title (most popular cources)  
+Body 
+Column ->
+Row -> column->  Text
+                 Text
+                 Text
+                 Row -> icon
+                     -> Text 
+    -> image
+    
+Row -> column->  Text
+                 Text
+                 Text
+                 Row -> icon
+                     -> Text 
+    -> image
+    
+Row -> column->  Text
+                 Text
+                 Text
+                 Row -> icon
+                     -> Text 
+    -> image
+    
+Row -> column->  Text
+                 Text
+                 Text
+                 Row -> icon
+                     -> Text 
+    -> image
+    
+Row -> column ->  Text
+                 Text
+                 Text
+                 Row -> icon
+                     -> Text 
+    -> image
+
