@@ -1,0 +1,33 @@
+MaterialApp
+└── Scaffold
+    ├── AppBar
+    │   ├── leading -> Container 
+    │   ├── title -> Text("Details")
+    │   └── actions -> Icon 
+    │
+    └── body -> Column
+        ├── Image.asset
+        └── Column
+            ├── Row 
+            │   ├── Text
+            │   └── Text
+            │
+            ├── Text("Minimalist Style With pillow")
+            ├── Text 
+            ├── SizedBox
+            │
+            ├── Row 
+            │   ├── Container 
+            │   ├── Container 
+            │   ├── Container 
+            │   ├── Container 
+            │   └── Container 
+            │       └── Row
+            │           ├── IconButton
+            │           ├── Text
+            │           └── IconButton
+            │
+            ├── SizedBox
+            └── Row 
+                ├── Expanded -> ElevatedButton
+                └── Container -> IconButton 
